@@ -1,0 +1,12 @@
+jupyterhub:
+  auth:
+    github:
+      org_whitelist:
+        -  pangeo-data
+        -  dask
+        -  xarray-dev
+        -  jupyterhub
+        -  informatics-lab
+        -  pydata
+        -  astropy
+        -  sunpy
