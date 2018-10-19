@@ -2,6 +2,7 @@ jupyterhub:
   auth:
     github:
       org_whitelist:
+        -  noaodatalab
         -  dirac-institute
         -  lsst-sqre
         -  pangeo-data
