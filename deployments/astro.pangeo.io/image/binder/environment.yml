@@ -50,4 +50,4 @@ dependencies:
     - jedi
     - kubernetes==6.0.0
     - dask-kubernetes==0.5.0
-    - nbserverproxy==0.8.1
+    - git+https://github.com/jupyterhub/nbserverproxy
