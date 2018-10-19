@@ -6,6 +6,8 @@ channels:
   - intake
   - conda-forge
 dependencies:
+  - astropy
+  - sunpy
   - jupyterhub==0.9.2
   - bokeh=0.13
   - bqplot
