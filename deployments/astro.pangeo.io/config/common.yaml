@@ -1,4 +1,26 @@
 jupyterhub:
+  auth:
+    github:
+      org_whitelist:
+        -  lsst-sqre
+        -  pangeo-data
+        -  dask
+        -  xarray-dev
+        -  jupyterhub
+        -  informatics-lab
+        -  pydata
+        -  astropy
+        -  sunpy
+    admin:
+      access: true
+      users:
+        - mrocklin
+        - jhamman
+        - rabernat
+        - yuvipanda
+        - choldgraf
+        - jacobtomlinson
+        - dsludwig
   singleuser:
     cloudMetadata:
       enabled: true
